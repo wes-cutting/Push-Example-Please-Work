@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Testing Forms</title>
+
+</head>
+<body>
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="forms.html">Forms</a>
+    </nav>
+    <form>
+        First name:<br>
+        <input type="text" name="firstname" value="Fill In Your Name">
+        <br>
+        Username:<br>
+        <input type="text" name="lastname">
+        <br>
+        Password:<br>
+        <input type="password" name="password">
+        <br>
+        Height:<br>
+        -Feet- 0<input type="range" min="0" max="10" name="feet" list="tickmarks">10
+        <br><br>
+        <input type="submit" value="Submit">
+        <datalist id="tickmarks">
+            <option value="0">
+            <option value="1">
+            <option value="2">
+            <option value="3">
+            <option value="4">
+            <option value="5">
+            <option value="6">
+            <option value="7">
+            <option value="8">
+            <option value="9">
+            <option value="10">
+        </datalist>
+    </form>
+</body>
+</html>

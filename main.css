@@ -1,0 +1,67 @@
+#aboutMe {
+    color: yellow;
+    background-color: black;
+    float: top;
+    font-family: "American Typewriter";
+    font-style: italic;
+}
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1 {
+    border: 10px;
+    background-color: aqua;
+}
+
+h3 {
+    color: aqua;
+}
+#paraOne {
+    color: green;
+    font-family: "Apple Color Emoji";
+    font-style: normal;
+}
+
+#paraTwo {
+    color: blue;
+}
+
+#quotes p {
+    color: aqua;
+}
+
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+            'header header header header '
+            'menu main main main';
+    grid-gap: 10px;
+    padding: 10px;
+}
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
